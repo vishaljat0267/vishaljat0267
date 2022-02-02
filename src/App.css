@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #bb1f8c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  min-height: 100vh;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+h1,h2{
+  color: rgb(223, 18, 18);
+}
+.btn{
+  background: #f05462;
+  color: white;
+  padding: center;
+  text-align: center;
+}
+.btn:hover{
+  color: #f05462;
+  background: white;
+  padding: 3px 8px;
+  border:2px solid #f05462;
+}
+.side-menu{
+  border-style: solid;
+  position: flex;
+  background-color: rgb(133, 181, 196);
+  width: 20vw;
+  min-height: 100vh;
+  margin-top:7.5vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7vh;
+  /* padding-left: 3vw; */
+}
+.side-menu .brand-name{
+  height:10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-menu li{
+  font-size: 40px;
+
+  padding: 20px 40px;
+  color:white;
+  align-items: center;
+}
+ Link:hover{
+  background: white;
+  color:#f05462 ;
+}
+
+.container{
+  
+  margin-left: 20vm;
+  left: 20vm;
+  top:0;
+  width:80vw;
+
+  background: #f1f1f1;
+ 
+}
+.container .header{
+  margin-left:0vw;
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+  width: 100vw;
+  height: 7vh;
+  background: rgb(25, 158, 211);
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,2);
+}
+.container .header .nav{
+  width:90%;
+  display: flex;
+  align-items: center;
+}
+.container .header .nav .search{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+.container .header .nav .search input[type=text]{
+  border:none;
+  background: #f1f1f1;
+  padding: 10px;
+  width: 50%;
+}
+.container .header .nav .search button{
+  width:40px ;
+  height:40px ;
+  border: none;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.container .header .nav .search button img{
+  width:30px;
+  height:30px;
+}
+.container .header .nav .search{
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+.container .header .nav .user{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header .nav .user img{
+  width: 40px;
+  height: 50px;
+}
+.container .header .nav .user .img-case{
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.container .header .nav .user .img-case img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+.search{
+  padding-left: 20%;
+  border-style: solid; 
+}
+/* .menu-bar
+{
+  
+  color: #fff;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+
+}
+.menu-bar ul a{
+  color: #fff;
+}
+.active:hover
+{
+  background-color: burlywood;
+  
+}
+.menu-bar ul li:hover.sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: #bb1f8c;
+} */
+.drop-down
+{
+  background-color: blue;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
